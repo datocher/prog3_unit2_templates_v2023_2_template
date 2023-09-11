@@ -44,7 +44,7 @@ jobs:
 
     - name: Catch Test
       working-directory: ${{github.workspace}}/build/autograder
-      run: ./prog3_unit2_templates_v2022_1_test
+      run: ./prog3_unit2_templates_v2023_2_test
 
     - name: CppCheck Test
       working-directory: ${{github.workspace}}/autograder/tests/cppcheck
@@ -54,5 +54,5 @@ jobs:
 
     - name: Valgrind Test
       working-directory: ${{github.workspace}}/build/autograder
-      run: valgrind --tool=memcheck --leak-check=yes --xtree-memory=full ./prog3_unit2_templates_v2022_1_test
+      run: valgrind --tool=memcheck --leak-check=yes --xtree-memory=full ./prog3_unit2_templates_v2023_2_test
 

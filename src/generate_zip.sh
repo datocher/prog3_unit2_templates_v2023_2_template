@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-project_name='prog3_unit2_templates_v2022_1'
+project_name='prog3_unit2_templates_v2023_2'
 source_code='
         P1.h P1.cpp
         P2.h P2.cpp

@@ -7,12 +7,12 @@
 
 # src code references
 source_code='
-  ../P10.cpp
-  test_10.cpp
+  ../P11.cpp
+  test_11.cpp
   '
 
 # compilation command
-g++ -O4 -D AUTOGRADE -std=c++17 ${source_code} ../test-main.o -I ../ -o test.exe -pthread
+g++ -O4 -D AUTOGRADE -std=c++20 ${source_code} ../test-main.o -I ../ -o test.exe -pthread
 
 #  execute the test
 ./test.exe

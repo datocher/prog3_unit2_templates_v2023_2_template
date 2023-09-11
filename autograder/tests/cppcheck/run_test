@@ -6,18 +6,18 @@
 # src code references
 source='cppcheck.cpp
   ../redirect_io.h 
-  ../P1.h ../P1.cpp
-  ../P2.h ../P2.cpp
-  ../P3.h ../P3.cpp
-  ../P4.h ../P4.cpp
-  ../P5.h ../P5.cpp
-  ../P6.h ../P6.cpp
-  ../P7.h ../P7.cpp
-  ../P8.h ../P8.cpp
-  ../P9.h ../P9.cpp
-  ../P10.h ../P10.cpp
-  ../P11.h ../P11.cpp
-  ../P12.h ../P12.cpp
+  ../P1.h ../catch_test_1/test_1.cpp
+  ../P2.h ../catch_test_2/test_2.cpp
+  ../P3.h ../catch_test_3/test_3.cpp
+  ../P4.h ../catch_test_4/test_4.cpp
+  ../P5.h ../catch_test_5/test_5.cpp
+  ../P6.h ../catch_test_6/test_6.cpp
+  ../P7.h ../catch_test_7/test_7.cpp
+  ../P8.h ../catch_test_8/test_8.cpp
+  ../P9.h ../catch_test_9/test_9.cpp
+  ../P10.h ../catch_test_10/test_10.cpp
+  ../P11.h ../catch_test_11/test_11.cpp
+  ../P12.h ../catch_test_12/test_12.cpp
   '
 
 cppcheck ${source} -x c++ --enable=all --verbose --error-exitcode=1 --suppressions-list=suppressions.txt

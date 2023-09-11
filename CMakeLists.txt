@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.10.2)
 project(prog3_unit2_templates_v2023_2)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 if(UNIX AND NOT APPLE)
     SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 endif()

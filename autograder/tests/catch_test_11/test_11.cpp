@@ -6,7 +6,6 @@
 #include "P11.h"
 #include <vector>
 #include <array>
-using namespace std;
 
 static void question_11_1() {
   auto f = polynomial<int, 10, 0, 7, 2, 0, 0, 11>();
@@ -14,12 +13,12 @@ static void question_11_1() {
 }
 
 static void question_11_2() {
-  auto f = polynomial<double, 21, 3.5, 0, 5>();
+  auto f = polynomial<double, 21.0, 3.5, 0.0, 5.0>();
   cout << f(4.5);
 }
 
 static void question_11_3() {
-  auto f = polynomial<0, 0, 0, 2, 0, 0, 11>();
+  auto f = polynomial<int, 0, 0, 0, 2, 0, 0, 11>();
   cout << f(4);
 }
 

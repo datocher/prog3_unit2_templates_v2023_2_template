@@ -65,7 +65,7 @@ auto last_it = next(begin(lst), size(lst) / 2);
 cout << "Sumatoria de la mitad: " << sumarizar(begin(lst), last_it, 0) << endl;
 ```
 
-### Question #4 - puntero inteligente (2 points)
+### Question #4 - puntero inteligente - template de clase (2 points)
 Crear la clase template **`smart_ptr`** que simule un puntero inteligente (la memoria es liberada automáticamente) y la función template **`make_smart_ptr`** que simule el operador **`new`**. Sobrecargar el operador de-referencia `*`, el operador arrow `->`.
 
 
