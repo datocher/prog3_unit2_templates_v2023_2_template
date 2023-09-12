@@ -335,14 +335,14 @@ f(x) = a + bx + cx^2 + dx^3 + ex^4 +...
 
 **Use Case #2:** `f(x) = 21.0 + 3.5x + 5.0x^3`
 ```
-    auto f = polynomial<double, 21, 3.5, 0, 5>();
+    auto f = polynomial<double, 21.0, 3.5, 0.0, 5.0>();
     cout << f(4.5);
 ```
 
 **Use Case #3:** `f(x) = 2x^3 + 11x^6`
 
 ```
-    auto f = polynomial<0, 0, 0, 2, 0, 0, 11>();
+    auto f = polynomial<int, 0, 0, 0, 2, 0, 0, 11>();
     cout << f(4);
 ```
 
